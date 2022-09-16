@@ -4,7 +4,10 @@ mydb = mysql.connector.connect(
     host='localhost',
     user='root',
     password='',
-    # database=''
+    database='PROJ_WEB'
 )
 
-mycursor = mydb.cursor()
+mcs = mydb.cursor()
+
+# mcs.execute("CREATE DATABASE PROJ_WEB")
+

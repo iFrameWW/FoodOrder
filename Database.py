@@ -19,9 +19,20 @@ mcs = mydb.cursor()
 #     Payment_Brand VARCHAR(255), Payment_ID VARCHAR(20), 
 #     Payment_Holder_Name VARCHAR(255))""")
 
-mcs.execute("""CREATE TABLE Food_Menu(
-    Food_ID INT AUTO_INCREMENT PRIMARY KEY,
-    Food_Name VARCHAR(255),
-    Price FLOAT(7,2),
-    QTY_Stock INT,
-    Status INT(1))""")
+# mcs.execute("""CREATE TABLE Food_Menu(
+#     Food_ID INT AUTO_INCREMENT PRIMARY KEY,
+#     Food_Name VARCHAR(255),
+#     Price FLOAT(7,2),
+#     QTY_Stock INT,
+#     Status INT(1))""")
+
+# mcs.execute("""CREATE TABLE CATEGORIES(
+#     CATAGORT_ID INT AUTO_INCREMENT PRIMARY KEY,
+#     CATAGORY_NAME VARCHAR(255)    
+#     )""")
+
+# mcs.execute("""CREATE TABLE Order(
+#     Order_ID INT AUTO_INCREMENT PRIMARY KEY,
+      
+# )
+# """)
